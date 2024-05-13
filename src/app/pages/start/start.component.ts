@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { AnimationOptions } from 'ngx-lottie';
 @Component({
   selector: 'app-start',
   templateUrl: './start.component.html',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class StartComponent {
 
+  options: AnimationOptions = {
+    path: '/assets/1.json',
+  }
 }
